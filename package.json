@@ -1,0 +1,58 @@
+{
+  "name": "web3modalvue",
+  "version": "1.0.0",
+  "description": "web3 wallet connection",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env VUE_APP_NODE_ENV=development webpack --config ./webpack.config.js --env=development",
+    "build": "cross-env APP_ENV=production webpack --config ./webpack.config.js --env=production",
+    "build:test": "cross-env APP_ENV=development webpack --config ./webpack.config.js --env=production",
+    "build:package": "node script/rollup.config.js"
+  },
+  "keywords": [
+    "web3",
+    "vue"
+  ],
+  "author": "xiaoai",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "@vue/babel-preset-app": "^5.0.1",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-component": "^1.1.1",
+    "babel-plugin-import": "^1.13.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "5.2.7",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "4.5.0",
+    "less": "^4.1.2",
+    "less-loader": "7.3.0",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "rollup": "^0.67.4",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-json": "^3.1.0",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "style-loader": "2.0.0",
+    "svg-url-loader": "^7.1.1",
+    "terser-webpack-plugin": "4.2.3",
+    "uglify-js": "^3.4.9",
+    "url-loader": "^4.1.1",
+    "vue-loader": "15.9.8",
+    "vue-template-compiler": "2.6.10",
+    "webpack": "4.46.0",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "@walletconnect/web3-provider": "^1.7.1",
+    "cross-env": "^7.0.3",
+    "detect-browser": "^5.3.0",
+    "element-ui": "^2.15.6",
+    "mitt": "^3.0.0",
+    "vue": "2.6.10",
+    "vue-styled-components": "^1.6.0",
+    "web3": "1.2.6"
+  }
+}

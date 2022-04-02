@@ -1,0 +1,70 @@
+{
+  "_args": [
+    [
+      "web3modal-vue@1.0.5",
+      "/Users/chenanjie/work/agent_managefront"
+    ]
+  ],
+  "_from": "web3modal-vue@1.0.5",
+  "_id": "web3modal-vue@1.0.5",
+  "_inBundle": false,
+  "_integrity": "sha1-WrhAgERT60JwikITmIJOvxZseRw=",
+  "_location": "/web3modal-vue",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "web3modal-vue@1.0.5",
+    "name": "web3modal-vue",
+    "escapedName": "web3modal-vue",
+    "rawSpec": "1.0.5",
+    "saveSpec": null,
+    "fetchSpec": "1.0.5"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://rg.cnpmjs.org/web3modal-vue/download/web3modal-vue-1.0.5.tgz",
+  "_spec": "1.0.5",
+  "_where": "/Users/chenanjie/work/agent_managefront",
+  "author": {
+    "name": "SmallRuralDog"
+  },
+  "bugs": {
+    "url": "https://github.com/SmallRuralDog/web3modal-vue/issues"
+  },
+  "dependencies": {
+    "detect-browser": "^5.2.0",
+    "vue-styled-components": "^1.6.0"
+  },
+  "description": "A single Web3 / Ethereum provider solution for all Wallets",
+  "files": [
+    "src"
+  ],
+  "homepage": "https://github.com/SmallRuralDog/web3modal-vue",
+  "keywords": [
+    "web3",
+    "web3vue",
+    "crypto",
+    "ethereum",
+    "web3modal",
+    "web3modalvue",
+    "vueweb3",
+    "metamask",
+    "walletconnect",
+    "portis",
+    "fortmatic",
+    "arkane",
+    "torus",
+    "authereum",
+    "frame"
+  ],
+  "license": "MIT",
+  "main": "./src/Web3ModalVue.vue",
+  "name": "web3modal-vue",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SmallRuralDog/web3modal-vue.git"
+  },
+  "version": "1.0.5"
+}
